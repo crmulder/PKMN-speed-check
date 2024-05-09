@@ -1,10 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './TestComponent.css';
+import TestComponent2 from '../TestComponent2/TestComponent2'
 
 const TestComponent = () => (
   <div className="TestComponent" data-testid="TestComponent">
-    The most basic of additions imaginable.
+    
+    <TestComponent2 />
+    <div className='div2'>
+      Future Component 2.
+    </div>
   </div>
 );
 

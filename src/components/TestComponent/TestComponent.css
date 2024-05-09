@@ -1,1 +1,17 @@
-.TestComponent {}
+.TestComponent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.div1 {
+    background-color: grey;
+    width: 50%;
+}
+
+.div2{
+    background-color: lightblue;
+    width: 25%;
+} 
