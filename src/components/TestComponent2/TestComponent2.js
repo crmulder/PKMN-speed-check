@@ -18,8 +18,9 @@ const TestComponent2 = () => {
         });
   }, []);
 
+
   return(
-    <div className='TestComponent2'>{poke.name}, Base speed:{poke.stats[5].base_stat}</div>
+    <div className='TestComponent2'>{poke ? ( `${poke.name}` ) : ("Loading...")}, Base speed: {poke.stats ? ( `${poke.stats[5].base_stat}` ) : ("Loading...")}</div>
   );
 };
 
