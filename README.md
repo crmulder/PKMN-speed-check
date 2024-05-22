@@ -1,5 +1,14 @@
 https://crmulder.github.io/PKMN-speed-check/
 
+TODO:
+Change web icon
+Change page title
+Built in drop down menu vs custom one?
+Experiment more with accessing the API
+Get more comfortable with techniques for dealing with asynchronously loaded elements
+
+--------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
