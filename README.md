@@ -2,7 +2,7 @@ https://crmulder.github.io/PKMN-speed-check/
 
 TODO:
 
--Change web icon
+- Change web icon
 - Change page title
 - Built in drop down menu vs custom one?
 - Experiment more with accessing the API
